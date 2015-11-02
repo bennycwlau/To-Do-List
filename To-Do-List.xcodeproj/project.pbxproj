@@ -14,6 +14,8 @@
 		04B31C9A1BE7028000969D09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B31C991BE7028000969D09 /* Images.xcassets */; };
 		04B31C9D1BE7028000969D09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B31C9B1BE7028000969D09 /* LaunchScreen.xib */; };
 		04B31CA91BE7028100969D09 /* To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B31CA81BE7028100969D09 /* To_Do_ListTests.swift */; };
+		04B31CB31BE7041500969D09 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B31CB21BE7041500969D09 /* TaskManager.swift */; };
+		04B31CB51BE70C4700969D09 /* notes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04B31CB41BE70C4700969D09 /* notes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		04B31CA21BE7028000969D09 /* To-Do-ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-Do-ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B31CA71BE7028000969D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B31CA81BE7028100969D09 /* To_Do_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListTests.swift; sourceTree = "<group>"; };
+		04B31CB21BE7041500969D09 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		04B31CB41BE70C4700969D09 /* notes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = notes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 		04B31C8D1BE7028000969D09 /* To-Do-List */ = {
 			isa = PBXGroup;
 			children = (
+				04B31CB41BE70C4700969D09 /* notes.plist */,
 				04B31C901BE7028000969D09 /* AppDelegate.swift */,
 				04B31C921BE7028000969D09 /* FirstViewController.swift */,
 				04B31C941BE7028000969D09 /* SecondViewController.swift */,
 				04B31C961BE7028000969D09 /* Main.storyboard */,
+				04B31CB21BE7041500969D09 /* TaskManager.swift */,
 				04B31C991BE7028000969D09 /* Images.xcassets */,
 				04B31C9B1BE7028000969D09 /* LaunchScreen.xib */,
 				04B31C8E1BE7028000969D09 /* Supporting Files */,
@@ -197,6 +203,7 @@
 			files = (
 				04B31C981BE7028000969D09 /* Main.storyboard in Resources */,
 				04B31C9D1BE7028000969D09 /* LaunchScreen.xib in Resources */,
+				04B31CB51BE70C4700969D09 /* notes.plist in Resources */,
 				04B31C9A1BE7028000969D09 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +224,7 @@
 			files = (
 				04B31C951BE7028000969D09 /* SecondViewController.swift in Sources */,
 				04B31C911BE7028000969D09 /* AppDelegate.swift in Sources */,
+				04B31CB31BE7041500969D09 /* TaskManager.swift in Sources */,
 				04B31C931BE7028000969D09 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
